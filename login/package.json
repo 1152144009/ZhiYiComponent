@@ -17,10 +17,10 @@
     "react-native-windows": "0.41.0-rc.1"
 
   },
-  "homepage": "https://github.com/1152144009/ZhiLogin",
+  "homepage": "https://github.com/1152144009/ZhiYiComponent",
   "repository": {
       "type": "git",
-      "url": "git@github.com:1152144009/ZhiLogin.git"
+      "url": "git@github.com:1152144009/ZhiYiComponent/tree/master/login.git"
   },
   "devDependencies": {
       "react": "16.6.3",
