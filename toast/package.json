@@ -1,7 +1,7 @@
 
 {
   "name": "react-native-zhiyi-toast",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "智一Toast",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "keywords": [
       "react-native-zhiyi-toast"
   ],
-  "author": "ygj9617",
+  "author": "ygj",
   "license": "MIT",
   "peerDependencies": {
     "react-native": "^0.41.2",
