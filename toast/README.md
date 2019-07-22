@@ -6,6 +6,8 @@
 `$ yarn add react-native-toast`
 
 ## 使用
+import {Toast} from 'react-native-zhiyi-toast';
+
 (msg,options) 第二个可传functionq做为回掉函数
 默认在中间展示 show('……');  
 
