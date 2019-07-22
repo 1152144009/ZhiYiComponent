@@ -1,9 +1,9 @@
 
-# react-native-toast
+# react-native-zhiyi-toast
 
 ## Getting started
 
-`$ yarn add react-native-toast`
+`$ yarn add react-native-zhiyi-toast`
 
 ## 使用
 import {Toast} from 'react-native-zhiyi-toast';
