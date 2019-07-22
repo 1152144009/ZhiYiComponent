@@ -12,19 +12,42 @@ const Toast = {
 
   toast: null,
 
-  show: msg => {
+  show: (msg,options) => {
     this.toast = RootToast.show(msg, {
       position: 0,
       duration: 1500
     })
+    setTimeout(function () {
+      typeof options === 'function' ? options && options() : null
+    }, 1500)
   },
-  showLong: msg => {
+  showLong: (msg,options) => {
     this.toast = RootToast.show(msg, {
       position: 0,
       duration: 3000
     })
+    setTimeout(function () {
+      typeof options === 'function' ? options && options() : null
+    }, 3000)
   },
-
+  showBottom: (msg,options) => {
+    this.toast = RootToast.show(msg, {
+      position: RootToast.positions.BOTTOM,
+      duration: 1500
+    })
+    setTimeout(function () {
+      typeof options === 'function' ? options && options() : null
+    }, 1500)
+  },
+  showTop: (msg,options) => {
+    this.toast = RootToast.show(msg, {
+      position: RootToast.positions.TOP,
+      duration: 1500
+    })
+    setTimeout(function () {
+      typeof options === 'function' ? options && options() : null
+    }, 1500)
+  },
   showSuccess: (msg, options) => {
     bling = new RootSiblings(
       <View style={styles.maskStyle}>
